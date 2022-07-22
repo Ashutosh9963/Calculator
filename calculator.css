@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(yellow, rgb(247, 66, 96));
+    background-repeat: no-repeat;
+    font-family: 'Orbitron', sans-serif;
+}
+div {
+    background-color: rgb(24, 23, 23);
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(58, 58, 58);
+    border: 5px solid rgb(248, 4, 4);
+}
+h1 {
+    font-size: 45px;
+}
+input {
+    width: 55px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background: #5d5c5c;
+    box-shadow: 0 0 1px white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#b1:hover {
+    width: 55px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+    background: #cbf437;
+    box-shadow: 0 0 5px white;
+    font-family: 'Orbitron', sans-serif;
+
+}
+#calc {
+    width: 85%;
+    height: 60px;
+    background: rgb(142, 246, 142);
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 25px;
+    font-size: 40px;
+    border: 1px solid red;
+}
+
+#clear {
+    width: 170px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background: #5d5c5c;
+    box-shadow: 0 0 1px white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#clear:hover {
+    width: 170px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+    background: #cbf437;
+    box-shadow: 0 0 5px white;
+    font-family: 'Orbitron', sans-serif;
+}

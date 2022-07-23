@@ -1,43 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Calculator</title>
-    <link rel="icon" href="../JavaScript/downloadcalcicon.png">
-    <link rel="stylesheet" href="../JavaScript/calculator.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="icon" href="../JavaScript/downloadcalcicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
     <center>
-        <h1>Calculator</h1>
-        <div>
-            <form action="" id="cform"> 
-                <input type="text" id="calc" name="Answer"> <br><br>
-                <input type="button" id="b1" value="1" onclick="cform.Answer.value += '1'">
-                <input type="button" id="b1" value="2" onclick="cform.Answer.value += '2'">
-                <input type="button" id="b1" value="3" onclick="cform.Answer.value += '3'">
-                <input type="button" id="b1" value="+" onclick="cform.Answer.value += '+'">
-                <br><br>
-                <input type="button" id="b1" value="4" onclick="cform.Answer.value += '4'">
-                <input type="button" id="b1" value="5" onclick="cform.Answer.value += '5'">
-                <input type="button" id="b1" value="6" onclick="cform.Answer.value += '6'">
-                <input type="button" id="b1" value="-" onclick="cform.Answer.value += '-'">
-                <br><br>
-                <input type="button" id="b1" value="7" onclick="cform.Answer.value += '7'">
-                <input type="button" id="b1" value="8" onclick="cform.Answer.value += '8'">
-                <input type="button" id="b1" value="9" onclick="cform.Answer.value += '9'">
-                <input type="button" id="b1" value="*" onclick="cform.Answer.value += '*'">
-                <br><br>
-                <input type="button" id="b1" value="/" onclick="cform.Answer.value += '/'">
-                <input type="button" id="b1" value="0" onclick="cform.Answer.value += '0'">
-                <input type="button" id="b1" value="." onclick="cform.Answer.value += '.'">
-                <input type="button" id="b1" value="=" onclick="cform.Answer.value = eval(cform.Answer.value)">
-                <br><br>
-                <input type="button" id="clear" value="Clear" onclick="cform.Answer.value=' '">
-            </form>
-        </div>
+      <!-- This is the main heading -->
+      <h1>Calculator</h1>
+      <div>
+        <form action="" id="cform">
+          <input type="text" id="calc" name="Answer" /> <br /><br />
+          <input
+            type="button"
+            id="b1"
+            value="1"
+            onclick="cform.Answer.value += '1'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="2"
+            onclick="cform.Answer.value += '2'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="3"
+            onclick="cform.Answer.value += '3'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="+"
+            onclick="cform.Answer.value += '+'"
+          />
+          <br /><br />
+          <input
+            type="button"
+            id="b1"
+            value="4"
+            onclick="cform.Answer.value += '4'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="5"
+            onclick="cform.Answer.value += '5'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="6"
+            onclick="cform.Answer.value += '6'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="-"
+            onclick="cform.Answer.value += '-'"
+          />
+          <br /><br />
+          <input
+            type="button"
+            id="b1"
+            value="7"
+            onclick="cform.Answer.value += '7'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="8"
+            onclick="cform.Answer.value += '8'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="9"
+            onclick="cform.Answer.value += '9'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="*"
+            onclick="cform.Answer.value += '*'"
+          />
+          <br /><br />
+          <input
+            type="button"
+            id="b1"
+            value="/"
+            onclick="cform.Answer.value += '/'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="0"
+            onclick="cform.Answer.value += '0'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="."
+            onclick="cform.Answer.value += '.'"
+          />
+          <input
+            type="button"
+            id="b1"
+            value="="
+            onclick="cform.Answer.value = eval(cform.Answer.value)"
+          />
+          <br /><br />
+
+          <!-- This is the clear button -->
+          <input
+            type="button"
+            id="clear"
+            value="Clear"
+            onclick="cform.Answer.value=' '"
+          />
+        </form>
+      </div>
     </center>
-    
-</body>
+  </body>
 </html>
